@@ -1,0 +1,225 @@
+/**/
+.primeira_linha{
+    width: inherit;
+    min-height: 60px;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.segunda_linha{
+    width: inherit;
+    min-height: 60px;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.terceira_linha{
+    width: inherit;
+    min-height: 60px;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+/*CAIXA FORM NOME*/
+#form_nome{
+    width: 350px;
+    min-height: 60px;
+    height: auto;
+    overflow: hidden;
+    margin-left: 40px;
+    float: left;
+    line-height: 1.5;
+}
+
+/*CAIXA FORM EMAIL*/
+#form_email{
+    width: 350px;
+    min-height: 60px;
+    height: auto;
+    overflow: hidden;
+    margin-left: 40px;
+    float: left;
+}
+
+/*CAIXA FORM SEXO*/
+#form_sexo{
+    width: 350px;
+    min-height: 60px;
+    height: auto;
+    margin-left: 40px;
+    float: left;
+    overflow: hidden;
+}
+
+
+/*CAIXA FORM TELEFONE*/
+#form_telefone{
+    width: 350px;
+    min-height: 60px;
+    height: auto;
+    margin-left: 40px;
+    float: left;
+    overflow: hidden;
+}
+
+.form_caixa_telefone{
+    width: inherit;
+    min-height: 35px;
+    height: auto;
+    text-align: center;
+    border-bottom: 1px solid #dadada;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+
+/*CAIXA FORM CELULAR*/
+#form_celular{
+    width: 350px;
+    min-height: 60px;
+    height: auto;
+    float: left;
+    clear: both;
+    margin-left: 40px;
+    overflow: hidden;
+}
+
+.form_caixa_celular{
+    width: inherit;
+    height: 35px;
+    text-align: center;
+    border-bottom: 1px solid #dadada;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+/*CAIXA FORM PROFISSÃO*/
+#form_profissao{
+    width: 350px;
+    min-height: 60px;
+    height: auto;
+    margin-left: 40px;
+    float: left;
+    overflow: hidden;
+}
+
+
+/*CAIXA FORM HOME PAGE*/
+#form_home_page{
+    width: 545px;
+    min-height: 60px;
+    height: auto;
+    margin-left: 40px;
+    clear: both;
+    float: left;
+    overflow: hidden;
+}
+
+
+/*CAIXA FORM FACEBOOK*/
+#form_facebook{
+    width:545px;
+    min-height: 60px;
+    height: auto;
+    margin-left: 40px;
+    float: left;
+    overflow: hidden;
+    
+}
+
+/*CAIXA FORM INFORMAÇÕES PRODUTOS*/
+#form_informacoes_produtos{
+    width: 545px;
+    height: 100px;
+    margin-left: 40px;
+    clear: both;
+    float: left;
+    
+}
+
+.form_caixa_informacoes_produtos{
+    width: inherit;
+    height: 90px;
+    padding: 15px;
+    overflow: auto;
+    border-bottom: 1px solid #dadada;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+/*CAIXA FORM CRITICA/SUGESTAO*/
+#form_critica{
+    width: 545px;
+    height: 100px;
+    margin-left: 40px;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.form_caixa_critica{
+    width: inherit;
+    height: 90px;
+    overflow: auto;
+    border-bottom: 1px solid #dadada;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 15px;
+    outline: none;
+    line-height: 1.5;
+    border-radius: 10px;
+}
+
+/*FORMATACAO LABEL*/
+.form_texto{
+    min-width: inherit;
+    width: auto;
+    height: 25px;
+    color: #565656;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-left: 5px;
+    
+}
+
+.form_caixa_texto{
+    width: inherit;
+    min-height: 35px;
+    height: auto;
+    text-align: center;
+    border-bottom: 1px solid #dadada;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+#fechar{
+    width: inherit;
+    height: 45px;
+    margin-bottom: 30px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+#icone_fechar{
+    width: 32px;
+    height: 32px;
+    margin-left: auto;
+    background-image: url(../img/iconfinder_Close_1891023.png);
+}
+
+#icone_fechar:hover{
+    cursor: pointer;
+}

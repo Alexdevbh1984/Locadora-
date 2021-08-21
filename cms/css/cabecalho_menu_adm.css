@@ -1,0 +1,169 @@
+/*AREA DO CABECALHO*/
+.cabecalho{
+    width: inherit;
+    height: 120px;
+    background-color: #000000;
+    color: #ffffff;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    
+}
+
+/*TITUTLO E SUBTITULO DO CMS*/
+.titulo_subtitulo{
+    width: 750px;
+    height: 120px;
+    box-sizing: border-box;
+    padding-left: 100px;
+    padding-top: 35px;
+    float: left;
+}
+
+.titulo{
+    width:76px;
+    height: 50px;
+    float: left;
+}
+
+.subtitulo{
+    width: 420px;
+    height: 50px;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
+
+/*LOGO DA EMPRESA*/
+.logo{
+    width: 300px;
+    height: 80px;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-left: 35px;
+    background-image: url(../img/Acme.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+}
+
+
+
+/*AREA DO MENU ADM*/
+.adm{
+    width: inherit;
+    min-height: 230px;
+    height: auto;
+    box-sizing: border-box;
+    padding-top: 20px;
+    
+    border-bottom: solid 2px #dadada;
+    border-left: solid 2px #dadada;
+    border-right: solid 2px #dadada;
+}
+
+/*AREA MENU*/
+.caixa_menu{
+    width: 796px;;
+    min-height: 190px;
+    height: auto;
+    clear: both;
+    float: left;
+}
+
+/*ITEM DO MENU*/
+.opcao_adm{
+    width: 160px;
+    min-height: 180px;
+    height: auto;
+    margin-left: 30px;
+    float: left;
+    /*border: solid 1px #dadada;*/
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+
+.opcao_adm:hover .texto_adm{
+    text-decoration: underline;
+}
+
+/*AREA DO ICONE*/
+.img_adm{
+    width: 80px;
+    height: 80px;
+    /*background-color: #a0a0a0;*/
+    margin-bottom: 10px;
+}
+
+/*AJUSTE DO ICONE*/
+.icone_adm{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*TEXTO DO ICONE DO MENU*/
+.texto_adm{
+    width: 158px;
+    min-height: 55px;
+    height: auto;
+    height: auto;1
+    font-size: 18px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 25px;
+}
+
+.texto_adm:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*AREA DO USUARIO*/
+.area_adm{
+    width: 298px;
+    height: 190px;
+    float: left;
+    
+}
+
+/*AREA DE BEM VINDO*/
+.bem_vindo{
+    width: inherit;
+    height: 150px;
+    box-sizing: border-box;
+    padding-right: 30px;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 30px;
+    text-align: right;
+}
+
+/*AREA DE LOGOUT*/
+.logout{
+    width: inherit;
+    height: 40px;
+    box-sizing: border-box;
+    padding-right: 30px;
+    font-size: 16px;
+}
+
+/*BOTAO DE SAIR*/
+.caixa_logout{
+    width:70px;
+    height: 32px;
+    padding-top: 5px;
+    padding-left: 7px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin-left: auto;
+    border: solid 1px #000000;
+    font-weight: bold;
+}
+
+.caixa_logout:hover{
+    color: #ffffff;
+    background-color: #000000;
+    cursor: pointer;
+}

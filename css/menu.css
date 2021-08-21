@@ -1,0 +1,539 @@
+@media screen and (min-width:1000px){
+  
+  /*FORMATAÇÃO DO LINK*/
+a:visited {
+    color: #ffffff;
+}
+a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*LOGO*/
+#caixa_logo{
+    width: 155px;
+    height: 80px;;
+    float: left;
+    text-align: center;
+    background-image: url(../img/Acme.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#caixa_logo:hover{
+    cursor: pointer;
+    
+}
+
+/*IMAGEM LOGO*/
+#logo{
+    width: 155px;
+    height: 100px;
+    font-family: solo;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 7px;
+    /*color: #b90000;*/
+    color: #ffcb00;
+    box-sizing: border-box;
+    float: left;
+    /*color: #ffffff;*/
+}
+
+@font-face {
+     font-family: solo;
+     src: url("../fontes/Solo.ttf");
+}
+
+/*MENU*/
+#caixa_menu{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: #000000;
+    z-index: 777;
+    
+}
+
+#corpo_menu{
+    width: 1400px;
+    height: inherit;
+    
+}
+  
+  #menu_mobile{
+    width: 1200px;
+    height: 500px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    margin-right: 100px;
+    position: relative;
+  background-color: firebrick;
+  margin-left: -1200px;
+    display: none;
+}
+
+
+#menu{
+    width: 570px;
+    height: inherit;
+    float: left;
+    padding-left: 20px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    margin-right: 100px;
+    margin-left: 70px;
+    
+}
+
+/*ITENS DO MENU*/
+.menu_item{
+    width: 120px;
+    height: 45px;
+    
+    margin-right: 15px;
+    float: left;
+    text-align: center;
+    padding-top: 7px;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-size: 18px;
+    /*color: #ffcb00;*/
+    color: #fafafa;
+    
+}
+
+.menu_item:hover{
+    /*border-bottom: solid 2px #b90000;*/
+    border-left: solid 2px #dadada;
+    border-right: solid 2px #dadada;
+    cursor: pointer;
+}
+
+/*SUBMENU DESTAQUE*/
+#submenu_destaque{
+    width: 130px;
+    height: 140px;
+    background-color: rgba(0,0,0,0.6);
+    margin-top: 17px;
+    box-sizing: border-box;
+    font-family:Helvetica;
+    color: #ffffff;
+    opacity: 0;
+    visibility: hidden;
+    padding-top: 20px;
+    margin-left: -5px;
+    padding-left: 5px;
+}
+
+/*ITENS DO SUBMENU DESTAQUE*/
+.submenu_item_destaque{
+    width: 120px;
+    height: 50px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    background-color: rgb(0,0,0);
+    font-family:Helvetica;
+    font-size: 16px;
+    /*color: #ffcb00;*/
+    color: #fafafa;
+    margin-bottom: 10px;
+}
+
+.submenu_item_destaque:hover{
+    
+    border-left: solid 2px #dadada;
+    border-right: solid 2px #dadada;
+}
+
+.menu_item:hover > #submenu_destaque{
+    opacity: 1;
+    visibility: visible;
+    transition: 1s;
+}
+
+/*SUBMENU ACME*/
+#submenu_acme{
+    width: 130px;
+    height: 140px;
+    background-color: rgba(0,0,0,0.6);
+    margin-top: 17px;
+    box-sizing: border-box;
+    font-family:Helvetica;
+    color: #ffffff;
+    opacity: 0;
+    visibility: hidden;
+    padding-top: 20px;
+    margin-left: -5px;
+    padding-left: 5px;
+}
+
+/*ITES DO SUBMENU ACME*/
+.submenu_item_acme{
+    width: 120px;;
+    height: 50px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    
+    font-family:Helvetica;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-color: rgb(0,0,0);
+}
+
+.submenu_item_acme:hover{
+    border-left: solid 2px #dadada;
+    border-right: solid 2px #dadada;
+}
+
+.menu_item:hover > #submenu_acme{
+    opacity: 1;
+    visibility: visible;
+    transition: 1s;
+}
+
+/*LOGIN*/
+#caixa_login{
+    width: 503px;
+    height: inherit;
+    float: left;
+    
+}
+
+/*DIV COM OS ELEMENTOS DO LOGIN*/
+.caixa_texto{
+    width: 225px;
+    height: 70px;
+    float: left;
+    
+}
+
+/*FORMATAÇÃO DO NOME USUARIO E SENHA*/
+.texto{
+    width: inherit;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 15px;
+    font-family: arial;
+    font-size: 16px;
+    padding-left: 5px;
+    font-weight: bold;
+    font-family: Helvetica;
+    /*color: #ffcb00;*/
+    color: #fafafa;
+    
+}
+
+/*DIV COM AS CAIXAS DE TEXTO */
+.login{
+    width: inherit;
+    height: 35px;
+}
+
+.inputText{
+    width: 213px;
+    height: 35px;
+    padding: 5px;
+    font-family: Helvetica;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: solid 2px #ffffff;
+    border-radius: 10px;
+    
+}
+
+.inputText:focus{
+    border: solid 2px #ffffff;
+    outline: none;
+  
+}
+
+/*BOTÃO*/
+#caixa_botao{
+    width: 53px;
+    height: 70px;
+    float: left;
+    padding-top: 35px;
+    box-sizing: border-box;
+   
+}
+
+.inputBotao{
+    width: inherit;
+    height: 35px;
+    font-family: Helvetica;
+    font-size: 17px;
+    background-color: #b90000;
+    color: #FFFFFF;
+    border: solid 2px #FFFFFF;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.inputBotao:hover{
+    cursor: pointer;
+    background-color: #b90000;
+    color: #ffffff;
+  border: solid 2px #b90000;
+}
+
+/*DIV PARA O ESPAÇO DO MENU FIXADO FICAR CETINHOO NO COMEÇO*/
+.div_embaixo_menu{
+    width: 100%;
+    height: 80px;
+    background-color: #000000;
+}
+  
+}
+
+@media screen and (max-device-width:680px){
+  
+  /*FORMATAÇÃO DO LINK*/
+a:visited {
+    color: #ffffff;
+}
+a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.logo{
+  width: 250px;
+  height: 130px;
+  margin-right: auto;
+  margin-left: auto;
+}
+  
+/*LOGO*/
+#caixa_logo{
+    width: inherit;
+    height: 130px;
+    text-align: center;
+    background-image: url(../img/Acme.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+}
+
+#caixa_logo:hover{
+    cursor: pointer;
+    
+}
+
+/*IMAGEM LOGO*/
+#logo{
+    width: 175px;
+    height: 120px;
+    font-family: solo;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 7px;
+    /*color: #b90000;*/
+    color: #ffcb00;
+    box-sizing: border-box;
+    float: left;
+    /*color: #ffffff;*/
+}
+
+@font-face {
+     font-family: solo;
+     src: url("../fontes/Solo.ttf");
+}
+
+/*MENU*/
+#caixa_menu{
+    width: 100%;
+    height: 130px;
+    position: fixed;
+    background-color: #000000;
+    z-index: 777;
+    
+}
+
+#corpo_menu{
+    width: 100%;
+    height: inherit;
+    background-color: #000000;
+}
+
+  #imagem_menu{
+     width: 130px;
+    height: 130px;
+    box-sizing: border-box;
+    margin-top: -130px;
+    background-image: url(../img/menu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  
+#menu_mobile{
+    width: 100%;
+    height: 900px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+ 
+    display: none;
+}
+  
+ /* 
+  .menu_mobile_open{
+    margin-left: 0px;
+    transition: 1s;
+    visibility: visible;
+    
+  }
+  
+  .menu_mobile_close{
+    margin-left: -500px;
+    transition: 1s;
+    visibility: hidden;
+    
+  }
+  */
+
+/*ITENS DO MENU*/
+.menu_item_mobile{
+    width: 500px;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    text-align: center;
+    padding-top: 25px;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-size: 2em;
+    /*color: #ffcb00;*/
+    color: #fafafa;
+    background-color: #000000;
+    margin-left: auto;
+  margin-right: auto;
+  
+    
+}
+
+.menu_item_mobile:hover{
+    /*border-bottom: solid 2px #b90000;*/
+    border-left: solid 2px #dadada;
+    border-right: solid 2px #dadada;
+    cursor: pointer;
+}
+
+
+  
+/*---------------------------*/
+#menu{
+    width: 1200px;
+    height: 500px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    margin-right: 100px;
+    position: relative;
+  background-color: firebrick;
+  margin-left: -1200px;
+  display: none;
+  
+}
+
+
+/*LOGIN*/
+#caixa_login{
+    width: 503px;
+    height: inherit;
+    float: left;
+    display: none;
+}
+
+/*DIV COM OS ELEMENTOS DO LOGIN*/
+.caixa_texto{
+    width: 225px;
+    height: 70px;
+    float: left;
+    
+}
+
+/*FORMATAÇÃO DO NOME USUARIO E SENHA*/
+.texto{
+    width: inherit;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 15px;
+    font-family: arial;
+    font-size: 16px;
+    padding-left: 5px;
+    font-weight: bold;
+    font-family: Helvetica;
+    /*color: #ffcb00;*/
+    color: #fafafa;
+    
+}
+
+/*DIV COM AS CAIXAS DE TEXTO */
+.login{
+    width: inherit;
+    height: 35px;
+}
+
+.inputText{
+    width: 213px;
+    height: 35px;
+    padding: 5px;
+    font-family: Helvetica;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: solid 2px #ffffff;
+    border-radius: 10px;
+    
+}
+
+.inputText:focus{
+    border: solid 2px #ffffff;
+    outline: none;
+  
+}
+
+/*BOTÃO*/
+#caixa_botao{
+    width: 53px;
+    height: 70px;
+    float: left;
+    padding-top: 35px;
+    box-sizing: border-box;
+   
+}
+
+.inputBotao{
+    width: inherit;
+    height: 35px;
+    font-family: Helvetica;
+    font-size: 17px;
+    background-color: #b90000;
+    color: #FFFFFF;
+    border: solid 2px #FFFFFF;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.inputBotao:hover{
+    cursor: pointer;
+    background-color: #b90000;
+    color: #ffffff;
+  border: solid 2px #b90000;
+}
+
+/*DIV PARA O ESPAÇO DO MENU FIXADO FICAR CETINHOO NO COMEÇO*/
+.div_embaixo_menu{
+    width: 100%;
+    height: 130px;
+    background-color: #000000;
+}
+  
+}

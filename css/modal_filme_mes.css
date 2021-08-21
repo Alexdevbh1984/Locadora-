@@ -1,0 +1,467 @@
+@media screen and (min-width:1000px){
+  
+  .center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.area_filme{
+    width: 608px;
+    height: 270px;
+    margin-bottom: 30px;
+    border: solid 1px #dadada;
+    background-color: #ffffff;
+}
+
+/*IMAGEM DO FILME*/
+.foto_modal{
+    
+    width: 200px;
+    height: 270px;
+    float: left;
+    
+}
+.img_modal{
+    width: 100%;
+    height: 100%;
+}
+
+/*AREA D INFORMACOES DO FILME*/
+.info_filme{
+    width: 408px;
+    height: 250px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+/*NOME DO FILME*/
+.nome_modal{
+    width: inherit;
+    height: 50px;
+    background-color: rgba(0,0,0,0.8);
+    font-size: 25px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/*FOTO CLASSIFICACAO*/
+.foto_class_modal{
+    width: 48px;
+    height: 48px;
+    float: left;
+    margin-bottom: 60px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+/*LANCAMENTO*/
+.data_modal{
+    width: 150px;
+    height: 48px;
+    float: left;
+    margin-bottom: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 15px;
+    border-right: solid 1px #dadada;
+    border-left: solid 1px #dadada;
+}
+
+/*TEMPO*/
+.tempo_modal{
+    width: 150px;
+    height: 48px;
+    float:left;
+    margin-bottom: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+
+/*AREA DO PREÇO*/
+.caixa_preco{
+    width: 300px;
+    height: 48px;
+    clear: both;
+    box-sizing: border-box;
+  padding-top: 5px;
+}
+
+.preco_final{
+    
+    width: 140px;
+    height: 35px;
+    text-align: center;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-top: 5px;  
+  color: forestgreen;
+  
+  
+}
+
+.preco_final:hover{
+  transition: 1s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.titulo_linha{
+    font-size: 16px;
+    color: dimgray;
+    font-weight: bold;
+    float: left;
+     padding-right: 10px;
+}
+
+.texto_linha{
+    width: 650px;
+    min-height: 30px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+   
+   
+    
+}
+
+/*INFORMACOES GERAIS*/
+.titulo_modal{
+    width: inherit;
+    height: 40px;
+    font-size: 23px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 7px;
+    background-color: rgba(0,0,0,0.8);
+    color: #ffffff;
+    clear: both;
+}
+
+/*GENERO*/
+.genero_modal{
+    margin-top: 30px;
+    width: 750px;
+    min-height: 40px;
+    height: auto;
+    box-sizing: border-box;
+     clear: both;
+    padding: 10px;
+    border-top: solid 1px #dadada;
+    border-left: solid 1px #dadada;
+    border-right: solid 1px #dadada;
+    background-color: #ffffff;
+    
+}
+
+/*ATORES*/
+.atores_modal{
+    width: 750px;
+    min-height: 40px;
+    height: auto;
+    box-sizing: border-box;
+    padding: 10px;
+    line-height: 1.5;
+    overflow: hidden;
+    border-left: solid 1px #dadada;
+    border-right: solid 1px #dadada;
+    background-color: #ffffff;
+    
+}
+
+/*DIRETORES*/
+.diretor_modal{
+    width: 750px;
+    min-height: 40px;
+    height: auto;
+   box-sizing: border-box;
+    padding: 10px;
+    border-left: solid 1px #dadada;
+    border-right: solid 1px #dadada;
+    border-bottom: solid 1px #dadada;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+/*SINOPSE*/
+.info_sinopse_modal{
+    
+    width: inherit;
+    min-height: 100px;
+    height: auto;
+    clear: both;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+
+
+#fechar{
+    width: inherit;
+    height: 45px;
+    margin-bottom: 30px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+#icone_fechar{
+    width: 32px;
+    height: 32px;
+    margin-left: auto;
+    background-image: url(../cms/img/iconfinder_Close_1891023.png);
+}
+
+#icone_fechar:hover{
+    cursor: pointer;
+}
+.sinopse_modal{
+    width: 750px;
+    min-height: 100px;
+    height: auto;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: justify;
+    background-color: #ffffff;
+     border: solid 1px #dadada;
+    margin-top: 30px;
+}
+
+  
+}
+
+@media screen and (max-device-width:680px){
+  .center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.area_filme{
+    width: 700px;
+    height: 350px;
+    margin-bottom: 30px;
+    border: solid 1px #dadada;
+    background-color: #ffffff;
+}
+
+/*IMAGEM DO FILME*/
+.foto_modal{
+    
+    width: 250px;
+    height: 350px;
+    float: left;
+    
+}
+.img_modal{
+    width: 100%;
+    height: 100%;
+}
+
+/*AREA D INFORMACOES DO FILME*/
+.info_filme{
+    width: 450px;
+    height: 280px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+/*NOME DO FILME*/
+.nome_modal{
+    width: inherit;
+    height: 65px;
+    background-color: rgba(0,0,0,0.8);
+    font-size: 2.2em;
+    box-sizing: border-box;
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/*FOTO CLASSIFICACAO*/
+.foto_class_modal{
+    width: 52px;
+    height: 52px;
+    float: left;
+    margin-bottom: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+/*LANCAMENTO*/
+.data_modal{
+    width: 170px;
+    height: 55px;
+    float: left;
+    margin-bottom: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 15px;
+    border-right: solid 2px #dadada;
+    border-left: solid 2px #dadada;
+  font-size: 1.6em;
+}
+
+/*TEMPO*/
+.tempo_modal{
+    width: 170px;
+    height: 55px;
+    float:left;
+    margin-bottom: 80px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 15px;
+  font-size: 1.6em;
+}
+
+/*AREA DO PREÇO*/
+.caixa_preco{
+    width: 380px;
+    height: 55px;
+    /*background-color: darkturquoise;*/
+    clear: both;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-top: 3px;
+    padding-left: 3px;
+    text-align: center;
+  font-size: 2.7em;
+  color: forestgreen;
+  
+}
+
+.titulo_linha{
+    font-size: 1.7em;
+    color: dimgray;
+    font-weight: bold;
+    float: left;
+     padding-right: 10px;
+}
+
+.texto_linha{
+    width: 450px;
+    min-height: 30px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    font-size: 1.6em;
+   
+    
+}
+
+/*INFORMACOES GERAIS*/
+
+.titulo_modal{
+    width: inherit;
+    height: 60px;
+    font-size: 2em;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    background-color: rgba(0,0,0,0.8);
+    color: #ffffff;
+    clear: both;
+}
+
+.genero_modal{
+    margin-top: 30px;
+    width: 700px;
+    min-height: 50px;
+    height: auto;
+    box-sizing: border-box;
+     clear: both;
+  overflow: hidden;
+    padding: 10px;
+    border-top: solid 1px #dadada;
+    border-left: solid 1px #dadada;
+    border-right: solid 1px #dadada;
+    background-color: #ffffff;
+    
+}
+.atores_modal{
+    width: 700px;
+    min-height: 40px;
+    height: auto;
+    box-sizing: border-box;
+    padding: 10px;
+    line-height: 1.5;
+    overflow: hidden;
+    border-left: solid 1px #dadada;
+    border-right: solid 1px #dadada;
+    background-color: #ffffff;
+    
+}
+.diretor_modal{
+    width: 700px;
+    min-height: 50px;
+    height: auto;
+   box-sizing: border-box;
+  overflow: hidden;
+    padding: 10px;
+    border-left: solid 1px #dadada;
+    border-right: solid 1px #dadada;
+    border-bottom: solid 1px #dadada;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+/*SINOPSE*/
+.info_sinopse_modal{
+    
+    width: inherit;
+    min-height: 100px;
+    height: auto;
+    clear: both;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+  
+  
+
+
+
+#fechar{
+    width: inherit;
+    height: 50px;
+    margin-bottom: 30px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+#icone_fechar{
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    background-image: url(../cms/img/iconfinder_Close_1891023.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#icone_fechar:hover{
+    cursor: pointer;
+}
+  
+.sinopse_modal{
+    width: 700px;
+    min-height: 100px;
+    height: auto;
+    font-size: 1.5em;
+    line-height: 1.5;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: justify;
+    background-color: #ffffff;
+     border: solid 1px #dadada;
+    margin-top: 30px;
+}
+  
+
+  
+}

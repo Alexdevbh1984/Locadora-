@@ -1,0 +1,19 @@
+#fechar{
+    width: inherit;
+    height: 45px;
+    margin-bottom: 30px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+#icone_fechar{
+    width: 32px;
+    height: 32px;
+    margin-left: auto;
+    background-image: url(../cms/img/iconfinder_Close_1891023.png);
+}
+
+#icone_fechar:hover{
+    cursor: pointer;
+}

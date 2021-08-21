@@ -1,0 +1,127 @@
+/*CAIXA 100%*/
+#caixa_conteudo{
+    width: 100%;
+    min-height: 500px;
+    height: auto;
+    overflow:hidden;
+    padding-bottom: 50px;
+}
+
+/*CONTEUDO COM TODAS AS INFORMACOES*/
+#conteudo{
+    width: 1100px;
+    min-height: 350px;
+    height: auto;
+    border-radius: 50px;
+    overflow:hidden;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+
+
+
+/*AREA COM OS LINKS DA PAGINAS*/
+.itens{
+    width: 1100px;
+    min-height: 400px;
+    height: auto;
+    border-left: solid 2px #dadada;
+    border-right: solid 2px #dadada;
+    padding-bottom: 50px;
+    overflow:hidden;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    
+}
+
+.graficos{
+  width: 500px;
+  min-height: 90px;
+  height: auto;
+  overflow: hidden;
+}
+
+.nome_filme_estatistica{
+  
+  width: 420px;
+  min-height: 25px;
+  text-align: justify;
+  font-size: 17px;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+
+.grafico_estatistica{
+  
+  width: 420px;
+  height: 40px;
+  margin-bottom: 10px;
+  background-color: #fafafa;
+  float: left;
+  
+}
+.estatistica{
+  
+  height: 35px;
+  
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 8px;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  
+}
+
+
+.porcentagem{
+  
+  width: 79px;
+  height: 40px;
+  margin-bottom: 30px;
+  text-align: justify;
+  box-sizing: border-box;
+  padding-top: 8px;
+  padding-left: 10px;
+  font-weight: bold;
+  float: left;
+  
+}
+
+/*TIUTLO NIVEL DE USUARIOS*/
+.titulo_lojas{
+    width: inherit;
+    height: 80px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 15px;
+    margin-bottom: 30px;
+    
+}
+
+/*CAIXA DE CADASTRO DE NIVEL DE USUÁRIOS*/
+.cadastro_lojas{
+    width: 500px;
+    min-height: 100px;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 35px;
+    border-left: solid 1px #a6a6a6;
+    /*background-color: #BFBFBF;*/
+    box-sizing: border-box;
+    /*padding-bottom: 30px;*/
+    
+}
+
+
+
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.foto{
+    width: 100%;
+    height: 100%;
+}

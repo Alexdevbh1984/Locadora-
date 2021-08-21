@@ -1,0 +1,722 @@
+@media screen and (min-width:1000px){
+  
+  /*FORMATAÇÃO DA PÁGINA*/
+body, ul, li, h1, h2, h3,h4,img,figure,p {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    //background-color: #fafafa;
+    font-family: Helvetica;
+}
+
+/*CENTRALIZAR ELEMENTOS*/
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*CAIXA REDES SOCIAIS*/
+#caixa_redes{
+    width: 140px;
+    height: 380px;
+    position: fixed;
+    margin-left: 1100px;
+}
+
+/*FACEBOOK*/
+.facebook{
+    width: 56px;
+    height: 56px;
+    margin: 20px;
+    border-radius: 100px;
+    background-image: url(../img/facebook.png);
+    background-size: cover;
+}
+
+.facebook:hover{
+    cursor: pointer;
+}
+
+/*INSTAGRAM*/
+.insta{
+    width: 56px;
+    height: 56px;
+    margin: 20px;
+    background-image: url(../img/instagram.png);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.insta:hover{
+    cursor: pointer;
+}
+
+/*TWITTER*/
+.twitter{
+    width: 56px;
+    height: 56px;
+    margin: 20px;
+    border-radius: 100px;
+    background-image: url(../img/twitter.png);
+    background-size: cover;
+}
+
+.twitter:hover{
+    cursor: pointer;
+}
+
+/*CONTEÚDO*/
+#caixa_conteudo{
+    width: 100%;
+    min-height: 750px;
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+    
+}
+
+#conteudo{
+    width: 1100px;
+    min-height: 550px;
+    height: auto;
+    box-sizing: border-box;
+    background-color: #e8e8e8;
+ /* background-color: antiquewhite;*/
+    display: flex;
+   padding: 30px;
+    border-radius: 20px;
+}
+
+/*TITULO*/
+#titulo{
+    width: 300px;
+    height: 200px;
+    box-sizing: border-box;
+    font-size: 40px;
+    padding-top: 70px;
+    text-align: center;
+}
+
+/*INFORMACOES DO FILME*/
+#caixa_filme_mes{
+    width: 1400px;
+    min-height: 250px;
+    height: auto;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+
+
+.filme_mes{
+    width: 1100px;
+    min-height: 550px;
+    height: auto;
+    background-color: #e8e8e8;
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 20px
+}
+
+.filme_mes:hover{
+     box-shadow: 0px 0px 30px  rgba(0,0,0,0.5);
+}
+
+/*FOTO DO FILME*/ 
+.caixa_foto_filme{
+    width: 350px;
+    height: 490px;
+    float: left;
+}
+
+.foto_filme{
+    width: 350px;
+    height: 490px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+/*INFORMAÇÕES DO FILME*/
+.caixa_informacoes_filme{
+    width: 650px;
+    min-height: 500px;
+    height: auto;
+    float: left;
+}
+
+/*NOME DO FILME*/
+.nome_filme{
+    width: inherit;
+    height: 50px;
+    font-size: 24px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    
+}
+
+/*DIV COM A CLASSIFICAÇÃO, LANÇAMENTO, GENERO E DURAÇÃO*/
+.sobre_filme{
+    width: inherit;
+    min-height: 90px;
+    height: auto;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+/*CLASSIFICAÇÃO DO FILME*/
+.classificacao{
+    width: 45px;
+    height: 45px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 8px
+}
+
+.foto_classificacao{
+  
+  width: 100%;
+  height: 100%;
+  
+  
+}
+
+/*DATA DO LANÇAMENTO DO FILME*/
+.data_lancamento{
+    width: 170px;
+    min-height: 40px;
+    height: auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    border-right: solid 1px #000000;
+    float: left;
+}
+
+/*DURACAO DO FILME*/
+.duracao_filme{
+    width: 100px;
+    min-height: 40px;
+    height: auto;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    border-right: solid 1px #000000;
+  white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+/*GENERO DO FILME*/
+.genero_filme{
+    width: 280px;
+    min-height: 40px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 25px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+/*FORMATACAOO DO NOME DIRETOR E ELENCO*/
+.texto_filme{
+    width: 130px;
+    height: inherit;
+    box-sizing: border-box;
+    padding-top: 5px;
+    font-size: 14px;
+    color: #727070;
+    font-weight: bold;
+    padding-left:30px;
+    float: left;
+}
+
+
+/*DIRETOR DO FILME*/
+.diretor_filme{
+    width: inherit;
+    height: 45px;
+}
+
+/*NOME DO DIRETOR*/
+.nome_diretor{
+    width: 300px;
+    height: inherit;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding-top: 5px;
+    float: left;
+}
+
+/*NOME DO ELENCO*/
+.elenco_filme{
+    width: inherit;
+    height: 45px;
+}
+
+.nome_elenco{
+    width: 470px;
+    height: inherit;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding-top: 5px;
+    float: left;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*SINOPSE*/
+.sinopse{
+    width: inherit;
+    min-height: 200px;
+    height: auto;
+    box-sizing: border-box;
+    line-height: 1.5;
+    padding-top: 30px;
+    padding-left: 30px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+
+/*BOTAO DE DETALHES E MARCAR COMO FAVORITO*/
+.avaliacao{
+    width: inherit;
+    height: 40px;
+}
+
+.detalhes_filme_mes{
+    width: 210px;
+    height: 40px;
+    margin-top: 10px;
+    
+    
+}
+
+/*TITULO DO BOTAO*/
+.titulo_detalhes{
+    width: 160px;
+    height: inherit;
+    float: left;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    box-sizing: border-box;
+    font-size: 20px;
+    padding-top: 5px;
+    border: solid 2px darkgreen;
+    color: darkgreen;
+    border-radius: 5px;
+}
+
+.titulo_detalhes:hover{
+    background-color: darkgreen;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/*ICONE DE FAVORITO*/
+.imagem_favorito{
+    width: 40px;
+    height: inherit;
+    float: left;
+    background-image: url(../img/coracao1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 10px
+}
+
+.imagem_favorito:hover{
+    cursor: pointer;
+    background-image: url(../img/coracao.png);
+    
+}
+
+/*ESTILO PARA MODAL*/
+#container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    box-sizing: border-box;
+    /*trocar elementos de posição*/
+    z-index: 999;
+    padding-top: 50px;
+    display: none;
+     overflow-y: scroll;
+}
+
+#modal{
+    width: 900px;
+    min-height:500px;
+    height: auto;
+    background-color: #fafafa;
+    /*border-radius: 10px;*/
+   box-sizing: border-box;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+  
+}
+
+
+@media screen and (max-device-width:680px){
+  
+
+  /*FORMATAÇÃO DA PÁGINA*/
+body, ul, li, h1, h2, h3,h4,img,figure,p {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    //background-color: #fafafa;
+    font-family: Helvetica;
+}
+
+/*CENTRALIZAR ELEMENTOS*/
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*CAIXA REDES SOCIAIS*/
+#caixa_redes{
+    width: 140px;
+    height: 380px;
+    position: fixed;
+    margin-left: 1100px;
+  display: none;
+}
+
+/*CONTEÚDO*/
+#caixa_conteudo{
+    width: 100%;
+    min-height: 750px;
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+    
+}
+
+#conteudo{
+    width: 750px;
+    min-height: 550px;
+    height: auto;
+    box-sizing: border-box;
+    background-color: #e8e8e8;
+ /* background-color: antiquewhite;*/
+  
+  overflow: hidden;
+   padding: 30px;
+    border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*TITULO*/
+#titulo{
+    width: inherit;
+    height: 200px;
+    box-sizing: border-box;
+    font-size: 4em;
+    padding-top: 70px;
+    text-align: center;
+}
+
+/*INFORMACOES DO FILME*/
+#caixa_filme_mes{
+    width: 1400px;
+    min-height: 250px;
+    height: auto;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+
+
+.filme_mes{
+    width: 500px;
+    min-height: 550px;
+    height: auto;
+    background-color: #e8e8e8;
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.filme_mes:hover{
+     box-shadow: 0px 0px 30px  rgba(0,0,0,0.5);
+}
+
+/*FOTO DO FILME*/ 
+.caixa_foto_filme{
+    width: 450px;
+    height: 590px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.foto_filme{
+    width: inherit;
+    height: inherit;
+    text-align: center;
+    border-radius: 15px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+/*INFORMAÇÕES DO FILME*/
+.caixa_informacoes_filme{
+    width: 650px;
+    min-height: 500px;
+    height: auto;
+  box-sizing: border-box;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*NOME DO FILME*/
+.nome_filme{
+    width: inherit;
+    height: 100px;
+    font-size: 3em;
+    box-sizing: border-box;
+    padding-left: 30px;
+  text-align: center;
+    
+}
+
+/*DIV COM A CLASSIFICAÇÃO, LANÇAMENTO, GENERO E DURAÇÃO*/
+.sobre_filme{
+    width: inherit;
+    min-height: 90px;
+    height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+/*CLASSIFICAÇÃO DO FILME*/
+.classificacao{
+    width: 90px;
+    height: 90px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 8px
+}
+
+.foto_classificacao{
+  
+  width: 100%;
+  height: 100%;
+  
+}
+
+/*DATA DO LANÇAMENTO DO FILME*/
+.data_lancamento{
+    width: 190px;
+    min-height: 60px;
+    height: auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 15px;
+    border-right: solid 1px #000000;
+    float: left;
+    font-size: 1.9em;
+}
+
+/*DURACAO DO FILME*/
+.duracao_filme{
+    width: 190px;
+    min-height: 60px;
+    height: auto;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 15px;
+    border-right: solid 1px #000000;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    font-size: 1.9em;
+}
+
+/*GENERO DO FILME*/
+.genero_filme{
+    width: 280px;
+    min-height: 60px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 25px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.9em;
+}
+
+/*FORMATACAOO DO NOME DIRETOR E ELENCO*/
+.texto_filme{
+    width: 150px;
+    height: inherit;
+    box-sizing: border-box;
+    padding-top: 10px;
+    font-size: 1.9em;
+    color: #727070;
+    font-weight: bold;
+    padding-left:30px;
+    float: left;
+}
+
+
+/*DIRETOR DO FILME*/
+.diretor_filme{
+    width: inherit;
+    height: 70px;
+}
+
+/*NOME DO DIRETOR*/
+.nome_diretor{
+    width: 300px;
+    height: inherit;
+    font-size: 1.9em;
+    box-sizing: border-box;
+    padding-top: 10px;
+    float: left;
+}
+
+/*NOME DO ELENCO*/
+.elenco_filme{
+    width: inherit;
+    height: 70px;
+}
+
+.nome_elenco{
+    width: 470px;
+    height: inherit;
+    font-size: 1.9em;
+    box-sizing: border-box;
+    padding-top: 10px;
+    float: left;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*SINOPSE*/
+.sinopse{
+    width: inherit;
+    min-height: 200px;
+    height: auto;
+    box-sizing: border-box;
+    line-height: 1.5;
+    padding-top: 30px;
+    text-align: justify;
+    margin-bottom: 30px;
+  font-size: 2em;
+}
+
+
+/*BOTAO DE DETALHES E MARCAR COMO FAVORITO*/
+.avaliacao{
+    width: inherit;
+    height: 60px;
+}
+
+.detalhes_filme_mes{
+    width: 290px;
+    height: 60px;
+    
+}
+
+/*TITULO DO BOTAO*/
+.titulo_detalhes{
+    width: 190px;
+    height: inherit;
+    float: left;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    box-sizing: border-box;
+    font-size: 1.8em;;
+    padding-top: 8px;
+    border: solid 2px darkgreen;
+    color: darkgreen;
+    border-radius: 5px;
+}
+
+.titulo_detalhes:hover{
+    background-color: darkgreen;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/*ICONE DE FAVORITO*/
+.imagem_favorito{
+    width: 60px;
+    height: inherit;
+    float: left;
+    background-image: url(../img/coracao1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 20px
+}
+
+.imagem_favorito:hover{
+    cursor: pointer;
+    background-image: url(../img/coracao.png);
+    
+}
+
+/*ESTILO PARA MODAL*/
+#container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    box-sizing: border-box;
+    /*trocar elementos de posição*/
+    z-index: 999;
+    padding-top: 50px;
+    display: none;
+     overflow-y: scroll;
+}
+
+#modal{
+    width: 900px;
+    min-height:500px;
+    height: auto;
+    background-color: #fafafa;
+    /*border-radius: 10px;*/
+   box-sizing: border-box;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+  
+  
+}

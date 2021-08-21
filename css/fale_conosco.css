@@ -1,0 +1,848 @@
+@media screen and (min-width:1000px){
+  
+  /*FORMATAÇÕES*/
+
+body, ul, li, h1, h2, h3,h4, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Helvetica;
+}
+
+/*CENTRALIZAR OS ELEMENTOS*/
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*CAIXA REDES SOCIAIS*/
+#caixa_redes{
+    width: 140px;
+    height: 280px;
+    position: fixed;
+    margin-left: 1400px;
+}
+
+/*FACEBOOK*/
+.facebook{
+    width: 56px;
+    height: 56px;
+    margin: 20px;
+    border-radius: 100px;
+    background-image: url(../img/facebook.png);
+    background-size: cover;
+}
+
+.facebook:hover{
+    cursor: pointer;
+}
+
+/*INSTAGRAM*/
+.insta{
+    width: 56px;
+    height: 56px;
+    margin: 20px;
+    background-image: url(../img/instagram.png);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.insta:hover{
+    cursor: pointer;
+}
+
+/*TWITTER*/
+.twitter{
+    width: 56px;
+    height: 56px;
+    margin: 20px;
+    border-radius: 100px;
+    background-image: url(../img/twitter.png);
+    background-size: cover;
+}
+
+.twitter:hover{
+    cursor: pointer;
+}
+
+/*CONTEUDO*/
+#caixa_conteudo{
+    width: 100%;
+    height: 970px;
+    box-sizing: border-box;
+    
+}
+
+#conteudo{
+    width: 1400px;
+    height: inherit;
+    //background-color: #fafafa;
+    box-sizing: border-box;
+}
+
+/*TEXTO PARA TIRAR DUVIDAS*/
+.paragrafo{
+    width: inherit;
+    height: 120px;
+    color: #565656;
+    font-family: Helvetica;
+    font-size: 16px;
+    box-sizing: border-box;
+    
+}
+
+/*TITULO FALE CONOSCO*/
+#titulo{
+    width: inherit;
+    height: 170px;
+    box-sizing: border-box;
+    padding-top: 70px;
+    margin-right: 50px;
+    color: #000000;
+    text-align: center;
+    font-size: 30px;
+}
+
+#caixa_fale_conosco{
+    width: inherit;
+    height: 600px;
+    padding-left: 110px;
+    box-sizing: border-box;
+}
+
+p{
+    padding-top: 30px;
+    box-sizing: border-box;
+    padding-left: 110px;
+}
+
+/*CAIXA FORM NOME*/
+#form_nome{
+    width: 300px;
+    height: 85px;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px
+}
+
+.txtNome{
+    width: inherit;
+    height: 40px;
+    border: 1px solid #dadada;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 15px;
+    outline:none;
+    
+}
+
+/*CAIXA FORM EMAIL*/
+#form_email{
+    width: 300px;
+    height: 85px;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px
+}
+
+.txtEmail{
+    width: inherit;
+    height: 40px;
+    border: 1px solid #dadada;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 15px;
+    outline:none;
+}
+
+/*CAIXA FORM SEXO*/
+#form_sexo{
+    width: 202px;
+    height: 85px;
+    float: left;
+    clear: both;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+
+
+.txtSexo{
+    width: 200px;;
+    height: 40px;
+    border: 1px solid #dadada;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 15px;
+    outline:none;
+}
+
+/*FORMATAÇÃO DO SELECT*/
+option{
+    width: inherit;
+    height: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    border: solid 1px #dadada;
+}
+
+/*CAIXA FORM TELEFONE*/
+#form_telefone{
+    width: 225px;
+    height: 85px;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.form_caixa_telefone{
+    width: inherit;
+    height: 60px;
+    margin-bottom: 30px
+}
+
+.txtTelefone{
+    width: inherit;
+    height: 40px;
+    border: 1px solid #dadada;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 15px;
+    outline:none;
+}
+
+/*CAIXA FORM CELULAR*/
+#form_celular{
+    width: 225px;
+    height: 85px;
+    float: left;
+    
+    margin-right: 40px;
+    margin-bottom: 40px
+}
+
+.txtCelular{
+    width: inherit;
+    height: 40px;
+    border: 1px solid #dadada;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 15px;
+    outline:none;
+    
+}
+
+.form_caixa_celular{
+    width: inherit;
+    height: 60px;
+}
+
+/*CAIXA FORM PROFISSÃO*/
+#form_profissao{
+    width: 280px;
+    height: 85px;
+    float: left;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+
+
+.txtProfissao{
+    width: inherit;
+    height: 40px;
+    border: 1px solid #dadada;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 15px;
+    outline:none;
+    
+}
+
+/*CAIXA FORM HOME PAGE*/
+#form_home_page{
+    width: 285px;
+    height: 85px;
+    float: left;
+    margin-bottom: 50px;
+    margin-right: 40px;
+}
+
+.txtHomePage{
+    width: inherit;
+    height: 40px;
+    border: 1px solid #dadada;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 15px;
+    outline:none;
+    
+}
+
+.txtMensagem{
+    width: 533px;
+}
+
+/*CAIXA FORM FACEBOOK*/
+#form_facebook{
+    width: 285px;
+    height: 85px;
+    float: left;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+
+.txtFacebook{
+    width: inherit;
+    height: 40px;
+    border: 1px solid #dadada;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 15px;
+    outline:none;
+    
+}
+
+/*textarea da caixa informações produtos e crtiticas e sugestões*/
+textarea{
+    width: inherit;
+    height: 155px;
+    border: 1px solid #dadada;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+    overflow: auto;
+    line-height: 1.5;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Helvetica;
+    outline:none;
+}
+
+
+/*CAIXA FORM INFORMAÇÕES PRODUTOS*/
+#form_informacoes_produtos{
+    width: inherit;
+    height: 180px;
+    clear: both;
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 105px;
+    
+}
+
+.form_informacoes_produtos{
+    width: inherit;
+    height: 175px;
+    clear: both;
+}
+
+/*CAIXA FORM CRITICA/SUGESTAO*/
+#form_critica{
+    width: inherit;
+    height: 180px;
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    
+}
+
+.form_caixa_critica{
+    width: inherit;
+    height: 175px;
+}
+
+/*FORMATACAO LABEL*/
+.form_texto{
+    width: inherit;
+    height: 25px;
+    color: #565656;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-left: 5px;
+    
+}
+
+.form_caixa_texto{
+    width: inherit;
+    height: 60px;
+}
+
+/*DIV PARA INFORMANDO O ITEM OBRIGATORIO*/
+.item_obrigatorio{
+    width: 500px;
+    height: 50px;
+    float: left;
+}
+
+.item{
+    padding: 0px;
+    color: #565656;
+}
+
+/*BOTÃO DE ENVIAR AS INFORMAÇÕES OD FORMULÁRIO*/
+.botao{
+    width: 180px;
+    height: 45px;
+    background-color: white;
+}
+
+/*BOTAO DO FORMULARIO*/
+.form_btn{
+    width: inherit;
+    height: inherit;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #000000;
+    border: solid 2px #000000;
+    
+}
+
+
+.form_btn:hover{
+    cursor: pointer;
+}
+
+/*FORMATAÇÃO PARA AS CAIXAS DE TEXTO, TEXTAREA E SELECT*/
+input:focus ,textarea:focus, select:focus{
+    box-shadow: 0px 0px 3px  rgba(0,0,0,0.3);
+}
+
+
+/*DADOS ORBIGATÓTIOS*/
+.obrigatorio{
+    color: red;
+}
+  
+}
+
+@media screen and (max-device-width:680px){
+
+  
+  /*FORMATAÇÕES*/
+
+body, ul, li, h1, h2, h3,h4, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Helvetica;
+}
+
+/*CENTRALIZAR OS ELEMENTOS*/
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*CAIXA REDES SOCIAIS*/
+#caixa_redes{
+    width: 140px;
+    height: 280px;
+    position: fixed;
+    margin-left: 1400px;
+  display: none;
+}
+
+
+
+/*CONTEUDO*/
+#caixa_conteudo{
+    width: 100%;
+    height: 970px;
+  height: auto;
+    box-sizing: border-box;
+    
+}
+
+#conteudo{
+    width: inherit;
+  min-height: inherit;
+    height: auto;
+    //background-color: #fafafa;
+    box-sizing: border-box;
+  overflow: hidden;
+}
+
+/*TEXTO PARA TIRAR DUVIDAS*/
+.paragrafo{
+    width: 820px;;
+    height: 150px;
+    color: #565656;
+    font-family: Helvetica;
+    margin-left: auto;
+  margin-right: auto;
+    box-sizing: border-box;
+    
+}
+
+/*TITULO FALE CONOSCO*/
+#titulo{
+    width: inherit;
+    height: 250px;
+    box-sizing: border-box;
+    padding-top: 70px;
+    margin-right: 50px;
+    color: #000000;
+    text-align: center;
+    font-size: 3em;
+}
+
+#caixa_fale_conosco{
+    width: inherit;
+    min-height: 600px;
+  height: auto;
+    box-sizing: border-box;
+  overflow: hidden;
+  padding-top: 25px;
+  margin-bottom: 50px;
+}
+
+p{
+  min-height: 50px;
+  height: auto;
+    padding-top: 30px;
+    box-sizing: border-box;
+    padding-left: 10px;
+  font-size: 2em;
+  
+}
+
+/*CAIXA FORM NOME*/
+#form_nome{
+    width: 800px;
+    height: 135px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.txtNome{
+    width: inherit;
+    height: 85px;
+    border: 2px solid #b4b6ba;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 2.1em;
+  outline: none;
+    
+}
+
+/*CAIXA FORM EMAIL*/
+#form_email{
+   width: 800px;
+    height: 135px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.txtEmail{
+    width: inherit;
+    height: 85px;
+    border: 2px solid #b4b6ba;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 2.1em;
+    outline:none;
+}
+
+/*CAIXA FORM SEXO*/
+#form_sexo{
+    width: 230px;
+    height: 135px;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+
+.txtSexo{
+    width: inherit;
+    height: 85px;
+    border: 2px solid #b4b6ba;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 2em;
+    outline:none;
+}
+
+/*FORMATAÇÃO DO SELECT*/
+option{
+    width: inherit;
+    height: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    border: solid 1px #b4b6ba;
+}
+
+/*CAIXA FORM TELEFONE*/
+#form_telefone{
+    width: 235px;
+    height: 135px;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+  margin-left: 90px;
+}
+
+.form_caixa_telefone{
+    width: inherit;
+    height: 60px;
+    margin-bottom: 30px
+}
+
+.txtTelefone{
+    width: inherit;
+    height: 85px;
+    border: 2px solid #b4b6ba;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 2em;
+    outline:none;
+}
+
+/*CAIXA FORM CELULAR*/
+#form_celular{
+    width: 255px;
+    height: 135px;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.txtCelular{
+    width: inherit;
+    height: 85px;
+    border: 2px solid #b4b6ba;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 2em;
+    outline:none;
+    
+}
+
+.form_caixa_celular{
+    width: inherit;
+    height: 60px;
+}
+
+/*CAIXA FORM PROFISSÃO*/
+#form_profissao{
+    width:800px;
+    height: 135px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.txtProfissao{
+     width: inherit;
+    height: 85px;
+    border: 2px solid #b4b6ba;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 2.1em;
+    outline:none;
+    
+}
+
+/*CAIXA FORM HOME PAGE*/
+#form_home_page{
+    width: 800px;
+    height: 135px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.txtHomePage{
+     width: inherit;
+    height: 85px;
+    border: 2px solid #b4b6ba;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 2.1em;
+    outline:none;
+    
+}
+
+.txtMensagem{
+    width: inherit;
+}
+
+/*CAIXA FORM FACEBOOK*/
+#form_facebook{
+    width: 800px;
+    height: 135px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.txtFacebook{
+     width: inherit;
+    height: 85px;
+    border: 2px solid #b4b6ba;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 2.1em;
+    outline:none;
+    
+}
+
+/*textarea da caixa informações produtos e crtiticas e sugestões*/
+textarea{
+    width: inherit;
+    height: 180px;
+  
+    border: 2px solid #b4b6ba;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+    overflow: auto;
+    line-height: 1.5;
+    border-radius: 10px;
+    font-size: 1.1em;
+    font-family: Helvetica;
+    outline:none;
+}
+
+
+/*CAIXA FORM INFORMAÇÕES PRODUTOS*/
+#form_informacoes_produtos{
+    width: 800px;
+     min-height: 230px;
+  height: auto;
+    margin-right: 40px;
+    margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+    
+}
+
+.form_informacoes_produtos{
+    width: inherit;
+    height: 175px;
+}
+
+/*CAIXA FORM CRITICA/SUGESTAO*/
+#form_critica{
+    width: 800px;
+    min-height: 230px;
+  height: auto;
+    margin-right: 40px;
+    margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+    
+}
+
+.form_caixa_critica{
+    width: inherit;
+    height: 175px;
+}
+
+/*FORMATACAO LABEL*/
+.form_texto{
+    width: inherit;
+    min-height: 25px;
+    height: auto;
+    color: #565656;
+    font-size: 2em;
+    font-family: Helvetica;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+.form_caixa_texto{
+    width: inherit;
+    min-height: 60px;
+  height: auto;
+}
+
+/*DIV PARA INFORMANDO O ITEM OBRIGATORIO*/
+.item_obrigatorio{
+    width: 500px;
+    height: 100px;
+    float: left;
+  margin-left: 90px;
+}
+
+.item{
+    height: inherit;
+    padding: 0px;
+    color: #565656;
+}
+
+/*BOTÃO DE ENVIAR AS INFORMAÇÕES OD FORMULÁRIO*/
+.botao{
+    width: 360px;
+    height: 100px;
+    background-color: white;
+    clear: both;
+    margin-right: auto;
+    margin-left: auto;
+  
+}
+
+/*BOTAO DO FORMULARIO*/
+.form_btn{
+    width: inherit;
+    height: inherit;
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #000000;
+    border: solid 2px #000000;
+  
+    
+}
+
+
+.form_btn:hover{
+    cursor: pointer;
+}
+
+/*FORMATAÇÃO PARA AS CAIXAS DE TEXTO, TEXTAREA E SELECT*/
+input:focus ,textarea:focus, select:focus{
+    box-shadow: 0px 0px 3px  rgba(0,0,0,0.4);
+}
+
+
+/*DADOS ORBIGATÓTIOS*/
+.obrigatorio{
+    color: red;
+}
+  
+}

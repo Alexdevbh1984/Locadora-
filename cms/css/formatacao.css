@@ -1,0 +1,110 @@
+/*FORMATACAO*/
+
+p, h1,h2,h3,h4,li,ul,figure,body{
+    margin: 0;
+    padding: 0;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    font-family: Helvetica;
+   /* background-color: #6b6c70;
+    background-color: #dadada;*/
+    /*background-color: #dadada;*/
+    box-sizing: border-box;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#menu_cadastro{
+    width: 200px;
+    min-height: 40px;
+    height: auto;
+    border-bottom: solid 2px #dadada;
+    border-right: solid 2px #dadada;
+  /*  background-color: #dadada;*/
+   /* border-bottom-right-radius: 10px;*/
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 2;
+  float: left;
+}
+
+.menu{
+  
+  width: inherit;
+  height: 40px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 5px;
+  cursor: pointer;
+/*  background-color: #000000;*/
+  
+}
+
+.menu_filme{
+  
+  background-color: #000000;
+  color: #ffffff;
+  
+}
+
+.menu .sub_menu{
+  
+  width: 190px;
+  min-height: 40px;
+  height: auto;
+  background-color: #ffffff;
+  margin-left: 200px;
+  margin-top: -35px;
+  z-index: 1;
+  position: relative;
+  box-sizing: border-box;
+  opacity: 0;
+  visibility: hidden;
+  border: solid 2px #dadada;
+  
+}
+
+.menu .sub_menu .sub_itens{
+  
+  width: inherit;
+  height: 38px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 5px;
+  cursor: pointer;
+  
+}
+
+.menu:hover .sub_menu{
+  transition: 1s;
+  opacity: 1;
+  visibility: visible;
+  
+}
+
+.menu_opcoes:hover, .menu .sub_menu .sub_itens:hover{
+  
+ /* border-bottom: solid 2px #000000;*/
+  background-color: #dadada;
+  
+}
+
+
+.cadastro{
+  
+  width: 895px;
+  min-height: 100px;
+  height: auto;
+  float: left;
+}

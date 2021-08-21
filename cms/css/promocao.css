@@ -1,0 +1,384 @@
+/*CAIXA 100%*/
+#caixa_conteudo{
+    width: 100%;
+    min-height: 500px;
+    height: auto;
+    overflow:hidden;
+    padding-bottom: 50px;
+}
+
+/*CONTEUDO COM TODAS AS INFORMACOES*/
+#conteudo{
+    width: 1100px;
+    min-height: 350px;
+    height: auto;
+    border-radius: 50px;
+    overflow:hidden;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+
+
+
+/*AREA DE CADASTRO E A TABELA*/
+.itens{
+    width: 1100px;
+    min-height: 400px;
+    height: auto;
+    border-left: solid 2px #dadada;
+    border-right: solid 2px #dadada;
+    padding-bottom: 50px;
+    overflow:hidden;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+/*TITULO PROMOCAO*/
+.titulo_promocao{
+    width: inherit;
+    height: 80px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 15px;
+    margin-bottom: 30px;
+    
+}
+
+/*CAIXA DE CADASTRO DA PROMOCAO*/
+.cadastro_promocao{
+    width: 635px;
+    min-height: 200px;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 35px;
+    border: solid 1px #a6a6a6;
+    background-color: #BFBFBF;
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+/*AREA CADSTRO PORCENTAGEM*/
+.form_promocao{
+    width: 100px;;
+    height: 105px;
+    float: left;
+    
+
+}
+
+/*AREA DA CAIXA DE TEXTO PARA CADASTRO*/
+.form_caixa_promocao{
+    width: inherit;
+    height: 80px;
+}
+
+/*FORMATACAO LABEL*/
+.form_texto_promocao{
+    width: inherit;
+    height: 25px;
+    color: #565656;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-left: 5px;
+    
+}
+
+.txtPromocao{
+    width: inherit;
+    height: 40px;
+    border: 1px solid #b8b8b8;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 15px;
+    outline:none;
+}
+
+.porcentagem{
+  width: 20px;
+  height: 25px;
+  float: left;
+  margin-top: 35px;
+  font-size: 20px;
+  
+}
+
+/*AREA DO SELECT DE FILMES*/
+.form_filmes{
+    width: 380px;;
+    height: 105px;
+    float: left;
+    margin-left: 40px;
+}
+/*ESTILIZACAO DO SELECT*/
+.txtFilmes{
+    width: inherit;
+    height: 40px;
+    border: 1px solid #b8b8b8;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 15px;
+    outline:none;
+}
+
+
+
+/*BOTÃO DE ENVIAR AS INFORMAÇÕES OD FORMULÁRIO*/
+.botao_form{
+    width: 110px;
+    height: 40px;
+    margin-left: auto;
+    clear: both;
+    
+}
+
+/*BOTAO DO FORMULARIO*/
+.form_btn{
+    width: inherit;
+    height: inherit;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #5E5E5E;
+    border: solid 2px #5E5E5E;
+    border-radius: 10px;
+    
+}
+
+
+.form_btn:hover{
+    cursor: pointer;
+}
+
+/*TABELA COM OS NIVEIS CADASTRADOS*/
+.tabela{
+    width: 750px;
+    min-height: 115px;
+    height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+
+}
+
+/*LINHA DE TITULO DAS COLUNAS*/
+.linha_titulo{
+    width: inherit;
+    height: 80px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    
+}
+
+/*TITULO DA PORCENTAGEM*/
+.titulo_form{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    float: left;
+    margin-right: 5px;
+    background-color: #5E5E5E;
+    color: #ffffff;
+}
+
+/*TITULO DO FILME*/
+.titulo_filme{
+    width: 240px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    float: left;
+    margin-right: 5px;
+    background-color: #5E5E5E;
+    color: #ffffff;
+}
+
+/*TITULO DO PRECO INICIAL*/
+.titulo_preco_inicio{
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    float: left;
+    margin-right: 5px;
+    background-color: #5E5E5E;
+    color: #ffffff;
+}
+
+/*TITULO DO PRECO FINAL*/
+.titulo_preco_fim{
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    float: left;
+    margin-right: 5px;
+    background-color: #5E5E5E;
+    color: #ffffff;
+}
+
+/*TITULO OPCOES*/
+.titulo_opcoes{
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    float: left;
+    background-color: #5E5E5E;
+    color: #ffffff;
+}
+
+/*AREA COM TODAS AS LINHAS E COLUNA CADASTRADAS*/
+.informacoes_form{
+    width: inherit;
+    min-height: 35px;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 10px;
+
+}
+
+/*FORMATACAO DA COLUNA PORCENTAGEM*/
+.linha_informacao{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 15px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    float: left;
+    padding-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: solid 1px #a6a6a6;
+    background-color: #BFBFBF
+}
+
+/*FORMATACAO DA COLUNA PRECO INICIAL*/
+.linha_preco_inicio{
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 15px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    float: left;
+    padding-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: solid 1px #a6a6a6;
+    background-color: #BFBFBF
+}
+
+/*FORMATACAO DA COLUNA PRECO FINAL*/
+.linha_preco_fim{
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 15px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    float: left;
+    padding-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: solid 1px #a6a6a6;
+    background-color: #BFBFBF
+}
+
+
+
+
+/*FORMATACAO DA COLUNA COM OS NOMES DOS FILMES*/
+.linha_filme{
+    width: 240px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 15px;
+    float: left;
+    padding-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: solid 1px #a6a6a6;
+    background-color: #BFBFBF;
+}
+
+/*FORMATACAO DA COLUNA OPCOES DOS BOTOES*/
+.linha_botao{
+    
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-top: 5px;
+    border: solid 1px #a6a6a6;
+    background-color: #BFBFBF;
+    
+}
+
+/*BOTÃO VISUALIZAR*/
+.excluir{
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+    float: left;
+        ;
+}
+
+/*BOTAO EDITAR*/
+.editar{
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+    float: left;
+}
+
+/*BOTAO DESATIVAR*/
+.desativar{
+    width: 24px;
+    height: 24px;
+    float: left;
+}
+
+.botao:hover{
+    cursor: pointer;
+}
+
+
+.link:hover{
+    text-decoration: underline;
+}
+

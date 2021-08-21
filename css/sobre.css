@@ -1,0 +1,284 @@
+
+
+@media screen and (min-width:1000px){
+  
+  /*formatação da página*/
+body, ul, li, h1, h2, h3,h4,img, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    //background-color: #fafafa;
+    font-family: Helvetica;
+}
+
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*CAIXA REDES SOCIAIS*/
+#caixa_redes{
+    width: 140px;
+    height: 380px;
+    position: fixed;
+    margin-left: 1400px;
+  
+}
+.facebook{
+    width: 56px;
+    height: 56px;
+    margin: 20px;
+    border-radius: 100px;
+    background-image: url(../img/facebook.png);
+    background-size: cover;
+}
+
+.facebook:hover{
+    cursor: pointer;
+}
+
+.insta{
+    width: 56px;
+    height: 56px;
+    margin: 20px;
+    background-image: url(../img/instagram.png);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.insta:hover{
+    cursor: pointer;
+}
+
+.twitter{
+    width: 56px;
+    height: 56px;
+    margin: 20px;
+    border-radius: 100px;
+    background-image: url(../img/twitter.png);
+    background-size: cover;
+}
+
+.twitter:hover{
+    cursor: pointer;
+}
+
+/*CONTEÚDO*/
+#caixa_conteudo{
+    width: 100%;
+    min-height: 720px;
+    height: auto;
+    box-sizing: border-box;
+    
+}
+
+#conteudo{
+    width: 1400px;
+    min-height: 420px;
+    height: auto;
+    //background-color: #fafafa;
+    box-sizing: border-box;
+    display: flex;
+}
+
+/*TITULO*/
+#titulo{
+    width: 1400px;
+    height: 200px;
+    box-sizing: border-box;
+    padding-top: 70px;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+/*DIV INFORMAÇÕES SOBRE A EMPRESA*/
+#sobre{
+    width: 1400px;
+    min-height: 350px;
+    height: auto;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    padding-left: 55px;
+    padding-top: 50px;
+}
+
+.sobre_acme{
+    width: 290px;
+    min-height: 360px;
+    height: auto;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+/*DIV DO ICONE*/
+.icone{
+    width: 128px;
+    height: 128px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+/*DIV DO SUBTITULO*/
+.subtitulo{
+    width: inherit;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+/*DIV DAS INFORMAÇÕES DA EMPRESA*/
+.info{
+    width: inherit;
+    min-height: 190px;
+    height: auto;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.foto{
+    width: 100%;
+    height: 100%;
+}
+
+}
+
+@media screen and (max-device-width:680px){
+
+  
+  /*formatação da página*/
+body, ul, li, h1, h2, h3,h4,img, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    //background-color: #fafafa;
+    font-family: Helvetica;
+}
+
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*CAIXA REDES SOCIAIS*/
+#caixa_redes{
+    width: 140px;
+    height: 380px;
+    position: fixed;
+    margin-left: 1400px;
+  display: none;
+}
+
+/*CONTEÚDO*/
+#caixa_conteudo{
+    width: 100%;
+    min-height: 720px;
+    height: auto;
+    box-sizing: border-box;
+    
+}
+
+#conteudo{
+    width: 100%;
+    min-height: 420px;
+    height: auto;
+    //background-color: #fafafa;
+    box-sizing: border-box;
+    display: flex;
+}
+
+/*TITULO*/
+#titulo{
+    width: 100%;
+    height: 250px;
+    box-sizing: border-box;
+    padding-top: 70px;
+    font-size: 3em;
+    text-align: center;
+}
+
+
+/*DIV INFORMAÇÕES SOBRE A EMPRESA*/
+#sobre{
+    width: 830px;
+    min-height: 350px;
+    height: auto;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    padding-top: 50px;
+}
+
+.sobre_acme{
+    width: 500px;
+    min-height: 300px;
+    height: auto;
+    margin-right: 40px;
+    margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;box-sizing: border-box;
+  padding-bottom: 10px;
+}
+
+/*DIV DO ICONE*/
+.icone{
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+/*DIV DO SUBTITULO*/
+.subtitulo{
+    width: inherit;
+    height: 90px;
+    font-size: 2em;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 12px;
+}
+
+/*DIV DAS INFORMAÇÕES DA EMPRESA*/
+.info{
+    width: 500px;
+    min-height: 100px;
+    height: auto;
+    font-size: 1.5em;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.foto{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+  
+}

@@ -1,0 +1,707 @@
+	/*Formatações*/
+body, ul, li, h1, h2, h3,h4, p{
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html{
+  
+    
+    font-family: Helvetica ;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*CENTRALIZAR ELEMENTOS*/
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*DESKTOP*/
+@media screen and (min-width:1000px){
+  
+   .imagemf{
+    display: none;
+    
+  }
+		
+/*SLIDER*/
+#caixa_slider{
+    width: 100%;
+    height: 600px;
+    box-sizing: border-box;
+}
+
+#slider{
+    width: 1400px;
+    height: 600px;
+    
+}
+
+/*CAIXA REDES SOCIAIS*/
+#caixa_redes{
+    width: 140px;
+    height: 250px;
+    position: fixed;
+    margin-left: 1400px;
+}
+
+/*FACEBOOK*/
+.facebook{
+    width: 56px;
+    height: 56px;
+    margin: 20px;
+    border-radius: 100px;
+    background-image: url(../img/facebook.png);
+    background-size: cover;
+}
+
+.facebook:hover{
+    cursor: pointer;
+}
+
+/*INSTAGRAM*/
+.insta{
+    width: 56px;
+    height: 56px;
+    margin: 20px;
+    background-image: url(../img/instagram.png);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.insta:hover{
+    cursor: pointer;
+}
+
+/*TWITTER*/
+.twitter{
+    width: 56px;
+    height: 56px;
+    margin: 20px;
+    border-radius: 100px;
+    background-image: url(../img/twitter.png);
+    background-size: cover;
+}
+
+.twitter:hover{
+    cursor: pointer;
+}
+
+/*CONTEÚDO*/
+#caixa_conteudo{
+    width: 100%;
+    min-height: 500px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+#conteudo{
+    width: 1400px;
+    min-height: inherit;
+    height: auto;
+    display: flex;
+    padding-top: 30px;
+    background-color: #ffffff;
+}
+
+
+  
+/*CAIXA PRODUTOS*/
+#caixa_produtos{
+    width: 1200px;
+    min-height: inherit;
+    height: auto;
+    float: left;
+    padding-left: 50px;
+    
+}
+
+/*PRODUTO*/
+.produtos{
+    width: 280px;
+    height: 480px;
+    float: left;
+    border: solid 1px #dadada;
+    margin-right: 50px;
+    margin-bottom: 80px;
+    border-radius:15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    background-color: #fafafa;
+  background-color: #dadada;
+}
+
+.produtos:hover{
+    
+    box-shadow: 0px 0px 30px  rgba(0,0,0,0.5);
+}
+
+/*AO CURSOR PASSAR NO PRODUTO A FOTO TERA OUTRO EFEITO*/
+.produtos:hover #foto{
+    border-radius:15px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+/*AO CURSOR PASSAR PELO PRODUTO A FOTO TERA OUTRO EFEITO*/
+.produtos:hover img{
+    border-radius:15px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+/*FOTO DO PRODUTO*/
+.caixa_foto{
+    width: inherit;
+    height: 260px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.foto{
+    width: 200px;
+    height: 225px;
+    border: solid 1px #dadada;
+}
+
+
+/*QUE A IMAGEM TENHA A MESMA MEDIDA DA DIV PAI*/
+img{
+    width: 100%;
+    height: 100%;
+}
+
+/*DETALHES SOBRE O PRODUTO*/
+.caixa_detalhes{
+    width: inherit;
+    height: 120px;
+}
+
+/*DETALHES DO NOME DO PRODUTO*/
+.nome{
+    width: inherit;
+    height: 30px;
+    margin-bottom: 15px;
+   
+}
+
+.detalhes_nome{
+    width: 80px;
+    height: 35px;
+    font-family: Helvetica ;
+    font-size: 17px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    float: left;
+    font-weight: bold;
+      white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.detalhes_texto_nome{
+    width: 220px;
+    height: 35px;
+    padding-top: 8px;
+    box-sizing: border-box;
+    font-family: Helvetica ;
+    font-size: 16px;
+   /* float: left;*/
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    font-weight: bold;
+  text-align: center;
+}
+
+/*DETALHES DESCRICAO DO PRODUTO*/
+.descricao{
+    width: inherit;
+    height: 35px;
+    
+    font-family: Helvetica ;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+.detalhes_descricao{
+    width: 110px;
+    height: 35px;
+     font-family: Helvetica ;
+    font-size: 17px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    float: left;
+    font-weight: bold;
+}
+
+.detalhes_texto_descricao{
+    width: 220px;
+    height: 35px;
+    padding-top: 8px;
+    box-sizing: border-box;
+    font-family: Helvetica ;
+    font-size: 17px;
+    /*float: left;*/
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+/*DETALHES DO PREÇO*/
+.preco{
+    width: inherit;
+    height: 35px;
+    font-family: Helvetica ;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.detalhes_preco{
+    width: 80px;
+    height: 35px;
+     font-family: Helvetica ;
+    font-size: 17px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    float: left;
+    font-weight: bold;
+}
+
+.detalhes_texto_preco{
+    width: 167px;
+    height: 35px;
+    padding-top: 8px;
+    box-sizing: border-box;
+    font-family: Helvetica ;
+    font-size: 21px;
+    /*float: left;*/
+    color: darkgreen;
+    font-weight: bold;
+  text-align: center;
+}
+
+/*DIV DETALHES PARA ABRIR MODAL*/
+.detalhes{
+    width: 120px;
+    height: 30px;
+    font-family: Helvetica ;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: darkgreen;
+    border-radius: 5px;
+    padding-top: 3px;
+    border: solid 2px darkgreen;
+    margin-left: auto;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.detalhes:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+/*DIV COM FAIXA PROMOÇÃO*/
+.promocao{
+    width: 100px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    transform: rotate(45deg);
+    margin-left: 200px;
+    margin-top: 10px;
+    color: white;
+}
+
+/*ESTILO PARA MODAL*/
+#container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    box-sizing: border-box;
+    /*trocar elementos de posição*/
+    z-index: 999;
+    padding-top: 50px;
+    display: none;
+     overflow-y: scroll;
+}
+
+#modal{
+    width: 900px;
+    min-height:500px;
+    height: auto;
+    background-color: #fafafa;
+    /*border-radius: 10px;*/
+   box-sizing: border-box;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+	
+}
+
+/*MOBILE*/
+@media screen and (max-device-width:680px){
+  
+		
+/*SLIDER*/
+#caixa_slider{
+    width: 100%;
+    height: 600px;
+    box-sizing: border-box;
+  display: none;
+}
+
+#slider{
+    width: 1400px;
+    height: 600px;
+}
+
+/*SLIDER MOBILE*/
+.imagemf{
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+}
+
+.imagem_mobile{
+
+  width: 100%;
+  height: 100%;
+
+}
+  
+/*CAIXA REDES SOCIAIS*/
+#caixa_redes{
+    width: 140px;
+    height: 250px;
+    position: fixed;
+    margin-left: 1400px;
+  display: none;
+}
+
+/*CONTEÚDO*/
+#caixa_conteudo{
+    width: 100%;
+    min-height: 500px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+#conteudo{
+    width: inherit;
+    min-height: inherit;
+    height: auto;
+    display: flex;
+    padding-top: 30px;
+    background-color: #ffffff;
+}
+
+/*CAIXA_ITENS*/
+/*#caixa_itens{
+    width: 400px;
+    min-height: inherit;
+    height: auto;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+  #caixa_pesquisa{
+    
+    width: 375px;
+    height: 60px;
+    background-color: dodgerblue;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  .pesquisa{
+    
+    width: 290px;
+    height: 55px;
+    background-color: firebrick;
+    outline: none;
+    border-radius: 15px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 1.8em;
+    
+  }
+  
+  .pesquisa_botao{
+    
+    width: 60px;
+    height: 55px;
+    background-color: firebrick;
+    outline: none;
+    border-radius: 15px;
+    float: left;
+    
+  }
+#item{
+    width: 381px;
+    min-height: 40px;
+    height: auto;
+    box-sizing: border-box;
+    padding-left: 23px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-right: solid 2px #d5d5d5;
+}
+
+.itens_db{
+    width: 330px;
+    height: 80px;
+    font-size: 2em;
+    box-sizing: border-box;
+    padding: 8px;
+    font-family: Helvetica ;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    
+}
+
+.itens_db:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    
+}*/
+
+/*CAIXA PRODUTOS*/
+#caixa_produtos{
+    width: 600px;
+    min-height: inherit;
+    height: auto;
+    float: left;
+}
+
+/*PRODUTO*/
+.produtos{
+    width: 500px;
+    height: 800px;
+    border: solid 1px #dadada;
+    margin-right: 50px;
+    margin-bottom: 80px;
+    border-radius:15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    background-color: #fafafa;
+  background-color: #dadada;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.produtos:hover{
+    
+    box-shadow: 0px 0px 30px  rgba(0,0,0,0.5);
+}
+
+/*AO CURSOR PASSAR NO PRODUTO A FOTO TERA OUTRO EFEITO*/
+.produtos:hover #foto{
+    border-radius:15px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+/*AO CURSOR PASSAR PELO PRODUTO A FOTO TERA OUTRO EFEITO*/
+.produtos:hover img{
+    border-radius:15px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+/*FOTO DO PRODUTO*/
+.caixa_foto{
+    width: inherit;
+    height: 420px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.foto{
+    width: 300px;
+    height: 380px;
+    border: solid 1px #dadada;
+   border-radius:15px;
+}
+
+
+/*QUE A IMAGEM TENHA A MESMA MEDIDA DA DIV PAI*/
+.imagem_foto{
+    width: 100%;
+    height: 100%;
+   border-radius:15px;
+}
+
+/*DETALHES SOBRE O PRODUTO*/
+.caixa_detalhes{
+    width: inherit;
+    min-height: 170px;
+  height: auto;
+}
+
+/*DETALHES DO NOME DO PRODUTO*/
+.nome{
+    width: inherit;
+    height: 75px;
+    margin-bottom: 15px;
+}
+
+
+.detalhes_texto_nome{
+    width: 500px;
+    height: 65px;
+    padding-top: 8px;
+    box-sizing: border-box;
+    font-family: Helvetica ;
+    font-size: 2.3em;
+   /* float: left;*/
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    font-weight: bold;
+  text-align: center;
+}
+
+/*DETALHES DESCRICAO DO PRODUTO*/
+.descricao{
+    width: inherit;
+    height: 65px;
+    
+    font-family: Helvetica ;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+
+.detalhes_texto_descricao{
+    width: 450px;
+    height: 65px;
+    padding-top: 8px;
+    box-sizing: border-box;
+    font-family: Helvetica ;
+    font-size: 2em;
+    /*float: left;*/
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+/*DETALHES DO PREÇO*/
+.preco{
+    width: inherit;
+    height: 85px;
+    font-family: Helvetica;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.detalhes_texto_preco{
+    width: 450px;
+    height: 85px;
+    padding-top: 12px;
+    box-sizing: border-box;
+    font-family: Helvetica ;
+    font-size: 2.5em;
+    /*float: left;*/
+    color: darkgreen;
+    font-weight: bold;
+  text-align: center;
+}
+
+/*DIV DETALHES PARA ABRIR MODAL*/
+.detalhes{
+    width: 260px;
+    height: 70px;
+    font-family: Helvetica ;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: darkgreen;
+    border-radius: 5px;
+    padding-top: 6px;
+    border: solid 2px darkgreen;
+    margin-left: auto;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.detalhes:hover{
+    cursor: pointer;
+    color: #ffffff;
+  background-color: darkgreen;
+}
+
+/*DIV COM FAIXA PROMOÇÃO*/
+.promocao{
+    width: 100px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    transform: rotate(45deg);
+    margin-left: 200px;
+    margin-top: 10px;
+    color: white;
+}
+
+/*ESTILO PARA MODAL*/
+#container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    box-sizing: border-box;
+    /*trocar elementos de posição*/
+    z-index: 999;
+    padding-top: 50px;
+    display: none;
+     overflow-y: scroll;
+}
+
+#modal{
+    width: 900px;
+    min-height:500px;
+    height: auto;
+    background-color: #fafafa;
+    /*border-radius: 10px;*/
+   box-sizing: border-box;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+	
+}

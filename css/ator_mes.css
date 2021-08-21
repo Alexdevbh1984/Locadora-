@@ -1,0 +1,487 @@
+/*FORMATAÇÕES NA PÁGINA*/
+body, ul, li, h1, h2, h3,h4,h5,img,figure,p {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    //background-color: #fafafa;
+    font-family: Helvetica;
+}
+
+/*CENTRALIZAR OS ELEMENTOS*/
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media screen and (min-width:1000px){
+  
+  /*CAIXA REDES SOCIAIS*/
+#caixa_redes{
+    width: 140px;
+    height: 380px;
+    position: fixed;
+    margin-left: 1400px;
+}
+
+/*FACEBOOK*/
+.facebook{
+    width: 56px;
+    height: 56px;
+    margin: 20px;
+    border-radius: 100px;
+    background-image: url(../img/facebook.png);
+    background-size: cover;
+}
+
+.facebook:hover{
+    cursor: pointer;
+}
+
+/*INSTAGRAM*/
+.insta{
+    width: 56px;
+    height: 56px;
+    margin: 20px;
+    background-image: url(../img/instagram.png);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.insta:hover{
+    cursor: pointer;
+}
+
+/*TWITTER*/
+.twitter{
+    width: 56px;
+    height: 56px;
+    margin: 20px;
+    border-radius: 100px;
+    background-image: url(../img/twitter.png);
+    background-size: cover;
+}
+
+.twitter:hover{
+    cursor: pointer;
+}
+
+/*CONTEÚDO*/
+#caixa_conteudo{
+    width: 100%;
+    min-height:550px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+#conteudo{
+    width: 1400px;
+    min-height: inherit;
+    height: auto;
+    //background-color: #fafafa;
+    box-sizing: border-box;
+    display: flex;
+}
+
+/*TITULO*/
+#titulo{
+    width: 1400px;
+    height: 200px;
+    box-sizing: border-box;
+    font-size: 40px;
+    padding-top: 70px;
+    text-align: center;
+}
+
+/*DIV ATOR DO MÊS*/
+#caixa_ator_mes{
+    width: 1400px;
+    min-height: inherit;
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+    padding-left: 130px;
+    
+}
+
+
+/*INFORMAÇÕES PRINCIPAIS DO ATOR*/
+.principal_sobre_ator{
+    width: 350px;
+    min-height: 770px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    padding: 15px;
+    line-height: 1.5;
+    font-size: 16px;
+    text-align: justify;
+    border: solid 1px #dadada; 
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+/*IMAGEM DO ATOR*/
+.imagem_ator{
+    width: 250px;
+    height: 340px;
+    border-radius: 20px;
+}
+
+/*PARA A IMAGEM OCUPAR 100% DA DIV PAI*/
+img{
+    width: 100%;
+    height: 100%;
+}
+
+/*NOME DE COMO O ATOR É CONHECIDO*/
+.nome_ator{
+    min-height: 60px;
+    height: auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 16px;
+    margin-bottom: 40px;
+    background-color: #dadada;
+    /*background-color: #000000;
+    color: #ffffff;*/
+    margin-top: 50PX;
+}
+
+.texto_tipo{
+    font-weight: bold;
+}
+
+/*NOME COMPLETO DO ATOR*/
+.nome_completo{
+    min-height:  60px;
+    height: auto;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/*NACIONALIDADE*/
+.nacionalidade{
+    min-height:  60px;
+    height: auto;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/*DATA DE NASCIMENTO*/
+.data_nascimento{
+    min-height:  60px;
+    height: auto;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/*LOCAL DE NASCIMENTO*/
+.local_nascimento{
+    min-height:  60px;
+    height: auto;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/*OCUPACAO*/
+.ocupacao{
+    min-height:  60px;
+    height: auto;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
+/*OUTRAS INFORMAÇÕES*/
+.outras_informações{
+    height: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 16px;
+    margin-bottom: 25px;
+    /*background-color: #f0e68c;*/
+    /*background-color: #dadada;*/
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/*BIOGRAFIA DO ATOR*/
+.caixa_biografia{
+    width: 750px;
+    min-height: 380px;
+    height: auto;
+    float: left;
+    border: solid 1px #dadada; 
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    line-height: 1.5;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    text-align: justify;
+    background-color: #dedede;
+}
+
+/*TITULO DA BIOGRAFIA*/
+.titulo_biografia{
+    height:48px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin-bottom: 60px;
+}
+
+/*FILMOGRAFIA DO ATOR*/
+.filmografia{
+    width: 750px;
+    min-height: 300px;
+    height: auto;
+    border: solid 1px #dadada; 
+    float: left;
+    box-sizing: border-box;
+    text-align: justify;
+    line-height: 1.5;
+  overflow: hidden;
+
+}
+
+/*TITULO DA FILMOGRAFIA*/
+.titulo_filmografia{
+    height:48px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin-bottom: 60px;
+}
+
+/*FILMES QUE O ATOR PARTICIPOU*/
+.filme{
+    width: 160px;
+    min-height: 230px;
+  height: auto;
+    float: left;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-color:aqua; 
+  overflow: hidden;
+    
+}
+
+.foto_filme{
+    width: 160px;
+    height: 170px;
+    box-sizing: border-box;
+   
+}
+
+
+/*NOME DO FILME*/
+.nome_filme{
+    width: inherit;
+    min-height: 60px;
+    height: auto;
+    text-align: center;
+    color: #000000;
+    line-height: 1.3;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    background-color: antiquewhite;
+    
+
+
+}
+  
+  
+}
+
+@media screen and (max-device-width:680px){
+  
+  /*CAIXA REDES SOCIAIS*/
+#caixa_redes{
+    width: 140px;
+    height: 380px;
+    position: fixed;
+    margin-left: 1400px;
+  display: none;
+}
+
+/
+
+/*CONTEÚDO*/
+#caixa_conteudo{
+    width: 100%;
+    min-height:550px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+#conteudo{
+    width: 100%;
+    min-height: inherit;
+    height: auto;
+  overflow: hidden;
+    //background-color: #fafafa;
+    box-sizing: border-box;
+}
+
+/*TITULO*/
+#titulo{
+     width: 100%;
+    height: 250px;
+    box-sizing: border-box;
+    font-size: 3em;
+    padding-top: 70px;
+    text-align: center;
+}
+
+/*DIV ATOR DO MÊS*/
+#caixa_ator_mes{
+    width: 800px;
+    min-height: inherit;
+    height: auto;
+  overflow: hidden;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+/*INFORMAÇÕES PRINCIPAIS DO ATOR*/
+.principal_sobre_ator{
+    width: 600px;
+    min-height: 970px;
+    height: auto;
+    box-sizing: border-box;
+    padding: 15px;
+    line-height: 1.5;
+    
+    text-align: justify;
+    border: solid 2px #dadada; 
+    margin-right: 30px;
+    margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*IMAGEM DO ATOR*/
+.imagem_ator{
+    width: 400px;
+    height: 490px;
+    border-radius: 20px;
+}
+
+/*PARA A IMAGEM OCUPAR 100% DA DIV PAI*/
+img{
+    width: 100%;
+    height: 100%;
+}
+
+/*NOME DE COMO O ATOR É CONHECIDO*/
+.nome_ator{
+    min-height: 80px;
+    height: auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 16px;
+    margin-bottom: 40px;
+    background-color: #dadada;
+    /*background-color: #000000;
+    color: #ffffff;*/
+    margin-top: 50px;
+  font-size: 2.4em;
+}
+
+.texto_tipo{
+    font-weight: bold;
+}
+
+/*NOME COMPLETO DO ATOR*/
+.nome_completo{
+    min-height:  80px;
+    height: auto;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+  font-size: 1.8em;
+}
+
+/*NACIONALIDADE*/
+.nacionalidade{
+    min-height:  80px;
+    height: auto;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+  font-size: 1.8em;
+}
+
+/*DATA DE NASCIMENTO*/
+.data_nascimento{
+    min-height:  80px;
+    height: auto;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+  font-size: 1.8em;
+}
+
+/*LOCAL DE NASCIMENTO*/
+.local_nascimento{
+    min-height:  80px;
+    height: auto;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+  font-size: 1.8em;
+}
+
+/*OCUPACAO*/
+.ocupacao{
+    min-height:  80px;
+    height: auto;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+  font-size: 1.8em;
+}
+
+
+
+/*BIOGRAFIA DO ATOR*/
+.caixa_biografia{
+    width: inherit;
+    min-height: 380px;
+    height: auto;
+    border: solid 1px #dadada; 
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    line-height: 1.4;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    text-align: justify;
+    background-color: #dedede;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.8em;
+}
+
+/*TITULO DA BIOGRAFIA*/
+.titulo_biografia{
+    height:48px;
+    font-size: 1.9em;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin-bottom: 60px;
+}
+
+
+}
+  
+}

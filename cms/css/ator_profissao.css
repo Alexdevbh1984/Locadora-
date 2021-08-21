@@ -1,0 +1,359 @@
+/*CAIXA 100%*/
+#caixa_conteudo{
+    width: 100%;
+    min-height: 500px;
+    height: auto;
+    overflow:hidden;
+    padding-bottom: 50px;
+}
+
+/*CONTEUDO COM TODAS AS INFORMACOES*/
+#conteudo{
+    width: 1100px;
+    min-height: 350px;
+    height: auto;
+    border-radius: 50px;
+    overflow:hidden;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+
+
+
+/*AREA COM OS LINKS DA PAGINAS*/
+.itens{
+    width: 1100px;
+    min-height: 400px;
+    height: auto;
+    border-left: solid 2px #dadada;
+    border-right: solid 2px #dadada;
+    padding-bottom: 50px;
+    overflow:hidden;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    
+}
+
+
+
+/*TIUTLO NIVEL DE USUARIOS*/
+.titulo_ator_profissao{
+    width: inherit;
+    height: 80px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 15px;
+    margin-bottom: 30px;
+    
+}
+
+/*CAIXA DE CADASTRO DE NIVEL DE USUÁRIOS*/
+.cadastro_ator_profissao{
+    width: 662px;
+    min-height: 200px;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 35px;
+    border: solid 1px #a6a6a6;
+    background-color: #BFBFBF;
+    box-sizing: border-box;
+    padding: 30px;
+    
+    border-radius: 10px;
+}
+
+.caixa_nivel{
+    width: inherit;
+    height: 60px;
+}
+
+
+/*AREA DA CAIXA DE TEXTO PARA CADASTRO*/
+.form_caixa_usuario{
+    width: inherit;
+    height: 80px;
+}
+
+/*FORMATACAO LABEL*/
+.form_texto_usuario{
+    width: inherit;
+    height: 25px;
+    color: #565656;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-left: 5px;
+    
+}
+
+.caixa_foto{
+    width: 170px;
+    height: 190px;
+
+    margin-bottom: 40px;
+}
+
+
+.form_ator{
+    width: 280px;;
+    height: 105px;
+    float: left;
+    margin-right: 40px;
+    
+}
+
+.txtAtor{
+    width: inherit;
+    height: 40px;
+    border: 1px solid #b8b8b8;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 15px;
+    outline:none;
+}
+
+.form_profissao{
+    width: 280px;;
+    height: 105px;
+    float: left;
+    
+}
+
+.txtProfissao{
+    width: inherit;
+    height: 40px;
+    border: 1px solid #b8b8b8;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 15px;
+    outline:none;
+}
+
+
+
+/*BOTÃO DE ENVIAR AS INFORMAÇÕES OD FORMULÁRIO*/
+.botao_form{
+    width: 110px;
+    height: 40px;
+    margin-left: auto;
+    clear: both;
+    
+}
+
+/*BOTAO DO FORMULARIO*/
+.form_btn{
+    width: inherit;
+    height: inherit;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #5E5E5E;
+    border: solid 2px #5E5E5E;
+    border-radius: 10px;
+    
+}
+
+
+.form_btn:hover{
+    cursor: pointer;
+}
+
+/*TABELA COM OS NIVEIS CADASTRADOS*/
+.tabela{
+    width: 565px;
+    min-height: 115px;
+    height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+
+/*CAIXA LINHA DE TITULO DAS COLUNAS*/
+.linha_titulo{
+    width: inherit;
+    height: 80px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    
+}
+
+/*FORMATACAO DE CADA TITULO DA COLUNA*/
+.titulo_form{
+    width: 245px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    float: left;
+    margin-right: 5px;
+    background-color: #5E5E5E;
+    color: #ffffff;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.titulo_profissao{
+    width: 190px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    float: left;
+    margin-right: 5px;
+    background-color: #5E5E5E;
+    color: #ffffff;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.titulo_opcoes{
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    float: left;
+    background-color: #5E5E5E;
+    color: #ffffff;
+}
+
+.titulo_destaque{
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    float: left;
+    background-color: #5E5E5E;
+    color: #ffffff;
+}
+
+
+
+
+/*AREA COM TODAS AS LINHAS E COLUNA CADASTRADAS*/
+.informacoes_form{
+    width: inherit;
+    min-height: 35px;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 10px;
+
+}
+
+/*FORMATACAO DA COLUNA NOME DO NIVEL COM OS NIVEIS CADASTRADOS*/
+.linha_informacao{
+    width: 245px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 15px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    float: left;
+    padding-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: solid 1px #a6a6a6;
+    background-color: #BFBFBF
+}
+
+/*FORMATACAO DA COLUNA CODIGO COM OS NIVEIS CADASTRADOS*/
+.linha_profissao{
+    width: 190px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 15px;
+    float: left;
+    padding-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: solid 1px #a6a6a6;
+    background-color: #BFBFBF;
+  white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*FORMATACAO DA COLUNA OPCOES COM OS NIVEIS CADASTRADOS*/
+.linha_botao{
+    
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-top: 5px;
+    border: solid 1px #a6a6a6;
+    background-color: #BFBFBF;
+    
+}
+
+/*BOTÃO VISUALIZAR*/
+.excluir{
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+    float: left;
+        ;
+}
+
+/*BOTAO EDITAR*/
+.editar{
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+    float: left;
+}
+
+/*BOTAO DESATIVAR*/
+.desativar{
+    width: 24px;
+    height: 24px;
+    float: left;
+}
+
+.botao:hover{
+    cursor: pointer;
+}
+
+/*FORMATACAO DA COLUNA OPCOES COM OS NIVEIS CADASTRADOS*/
+.linha_destaque{
+    
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-top: 5px;
+    border: solid 1px #a6a6a6;
+    background-color: #BFBFBF;
+    
+}
+
+.foto{
+    width: inherit;
+    height: inherit;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
