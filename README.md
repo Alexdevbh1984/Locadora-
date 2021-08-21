@@ -1,8 +1,8 @@
 # Locadora 
  aquivos para estudos 
-<img src="">
+<img src="https://github.com/Alexdevbh1984/Locadora-/blob/main/img/bela.jpg">
 
-<img src="">
+<img src="https://github.com/Alexdevbh1984/Locadora-/blob/main/img/bela.jpg">
 
 
 </p>  
